@@ -7,8 +7,8 @@ load_dotenv()
 
 # Bot Configuration
 BOT_TOKEN = os.getenv("7419373030:AAEacMkSxD6isx53Lt7BJ5jKBbl8HLhCiNM")
-API_ID = int(os.getenv("29483517"))
-API_HASH = os.getenv("e35a05d338376cbcd8162f810aed878d")
+API_ID = int(os.getenv("20366634"))
+API_HASH = os.getenv("72095ec36984aa9ceb0dbaa9cec31559")
 
 # Database Configuration
 MONGO_URI = os.getenv("mongodb+srv://user1:abhinai.2244@cluster0.7oaqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
