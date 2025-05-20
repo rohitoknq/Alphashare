@@ -6,33 +6,33 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Configuration
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("7419373030:AAEacMkSxD6isx53Lt7BJ5jKBbl8HLhCiNM")
+API_ID = int(os.getenv("29483517"))
+API_HASH = os.getenv("e35a05d338376cbcd8162f810aed878d")
 
 # Database Configuration
-MONGO_URI = os.getenv("MONGO_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
+MONGO_URI = os.getenv("mongodb+srv://user1:abhinai.2244@cluster0.7oaqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.getenv("Cluooozenty")
 
 # Channel Configuration 
-DB_CHANNEL_ID = int(os.getenv("DB_CHANNEL_ID"))
-FORCE_SUB_CHANNEL = int(os.getenv("FORCE_SUB_CHANNEL")) # First force sub channel
+DB_CHANNEL_ID = int(os.getenv("-1002567879845"))
+FORCE_SUB_CHANNEL = int(os.getenv("-1002337660214")) # First force sub channel
 FORCE_SUB_CHANNEL_2 = int(os.getenv("FORCE_SUB_CHANNEL_2", 0)) # Second force sub channel, defaults to 0 if not set
 FORCE_SUB_CHANNEL_3 = int(os.getenv("FORCE_SUB_CHANNEL_3", 0))
 FORCE_SUB_CHANNEL_4 = int(os.getenv("FORCE_SUB_CHANNEL_4", 0))
 
 # Add a second channel link
-CHANNEL_LINK = os.getenv("CHANNEL_LINK") # First channel link
+CHANNEL_LINK = os.getenv("https://t.me/koianimes") # First channel link
 CHANNEL_LINK_2 = os.getenv("CHANNEL_LINK_2", "") # Second channel link
 CHANNEL_LINK_3 = os.getenv("CHANNEL_LINK_3", "") 
 CHANNEL_LINK_4 = os.getenv("CHANNEL_LINK_4", "") 
 
 #start photo 
-START_PHOTO = os.getenv("START_PHOTO", "") #start photo for bot
+START_PHOTO = os.getenv("START_PHOTO", "https://ibb.co/XZZhqDs0") #start photo for bot
 
 # Bot Information
-BOT_USERNAME = os.getenv("BOT_USERNAME")
-BOT_NAME = os.getenv("BOT_NAME")
+BOT_USERNAME = os.getenv("@Fileshareing1bot")
+BOT_NAME = os.getenv("Fileshareing1bot")
 BOT_VERSION = "1.6"
 
 # Privacy Mode Configuration and codexbotz delete time
@@ -45,9 +45,9 @@ if not MODIJI_API_KEY:
     print("⚠️ Warning: MODIJI_API_KEY not set in environment variables")
 
 # Links
-CHANNEL_LINK = os.getenv("CHANNEL_LINK")
-DEVELOPER_LINK = os.getenv("DEVELOPER_LINK")
-SUPPORT_LINK = os.getenv("SUPPORT_LINK")
+CHANNEL_LINK = os.getenv("https://t.me/koianimes")
+DEVELOPER_LINK = os.getenv("https://t.me/ROHITREDDY69")
+SUPPORT_LINK = os.getenv("https://t.me/koianimess")
 
 # For Koyeb/render 
 WEB_SERVER = bool(os.getenv("WEB_SERVER", True)) # make it True if deploying on koyeb/render else False
@@ -57,7 +57,7 @@ PING_TIME = int(os.getenv("PING_TIME")) # Add time_out in seconds
 # Admin IDs - Convert space-separated string to list of integers
 ADMIN_IDS: List[int] = [
     int(admin_id.strip())
-    for admin_id in os.getenv("ADMIN_IDS", "").split()
+    for admin_id in os.getenv("ADMIN_IDS", "7845335174").split()
     if admin_id.strip().isdigit()
 ]
 
